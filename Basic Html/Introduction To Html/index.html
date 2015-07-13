@@ -1,0 +1,70 @@
+<!DOCTYPE Html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+	<form >
+		<h1 align="center">STUDENT REGISTRATION FORM</h1>
+		<hr>
+		<fieldset>
+		<legend><b>PERSONAL DETAILS</b></legend>
+		<br>
+		FIRST NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="firstname">
+		<br><br>
+		MIDDLE NAME &nbsp;<input type="text" name="middlename">
+		<br><br>
+		LAST NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lastname">
+		<br><br>
+		AGE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name = "age" width = "10">
+			<option value="18" selected>18 </option>
+			<option value="18">19</option>
+			<option value="18">20</option>
+			<option value="18">21</option>
+			<option value="18">22</option>
+			<option value="18">23</option>
+			<option value="18">24</option>
+			<option value="18">25</option>
+			<option value="18">26</option>
+			<option value="18">27</option>
+			<option value="18">28</option>
+			<option value="18">29</option>
+			<option value="18">30</option>
+		</select>
+		<br><br>
+		SEX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Male">Male</input>
+		<input type="radio" name="Male">Female</input>
+		<br><br>
+		ADDRESS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name = "address" rows = "2" cols = "30">
+		</textarea>
+		<br><br>
+		CITY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="city">
+		<br><br>
+		PIN CODE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="pincode">
+		<br><br>
+		STATE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="state">
+		<br><br>
+		COUNTRY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="country" value="India" readonly>
+		<br><br>
+		CONTACT NO &nbsp;&nbsp;&nbsp;<input type="text" name="contactno">
+		<br><br>
+		APPLYING FOR &nbsp;<input list="course" name="courses">
+			<datalist id="course">
+			<option value="BBA">
+			<option value="BCA">
+			<option value="MBA">
+			<option value="MCA">
+			</input>
+		</datalist>
+		<br><br>
+		<button type = "button">Submit</button>
+		<button type = "button">Reset</button>
+		</fieldset>
+		
+		
+
+
+	</form>
+
+</body>
+</html>
